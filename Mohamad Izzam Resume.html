@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamad Izzam - Resume</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsPDF/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+    <div class="max-w-4xl mx-auto p-6 bg-white shadow-lg rounded-lg mt-10">
+        <div class="flex justify-end mb-4">
+            <button id="downloadPdf" class="px-4 py-2 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700">
+                <i class="fas fa-file-pdf mr-2"></i>Download as PDF
+            </button>
+        </div>
+        
+        <div id="resumeContent">
+            <div class="flex items-center">
+                <img src="C:\Users\okyoky\Pictures\Camera Roll\DP resume.jpeg" alt="Mohamad Izzam" class="w-32 h-32 rounded-full mr-4">
+                <div class="flex-1">
+                    <h1 class="text-3xl font-bold">Mohamad Izzam bin Samsudin</h1>
+                    <p class="text-gray-600 mt-2">Experienced IT and Engineering professional (8+ years), Azure & AWS Certified, pursuing a career in Cloud Engineering with a strong foundation in system administration and infrastructure management.</p>
+                    <div class="flex items-center space-x-4 mt-2">
+                        <p><i class="fas fa-phone-alt text-gray-600 mr-2"></i>+60132234459</p>
+                        <p><i class="fas fa-map-marker-alt text-gray-600 mr-2"></i>Kuala Lumpur, Malaysia</p>
+                        <p><i class="fas fa-envelope text-gray-600 mr-2"></i> izzamsamsudin@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+        <div class="mt-6">
+            <h2 class="text-xl font-semibold">Certifications</h2>
+            <ul class="list-disc pl-5 mt-2">
+                <li><a href="https://learn.microsoft.com/api/credentials/share/en-us/MohamadIzzam-3174/10B1704B3D582EA0?sharingId=D882A1A827C20213" class="text-blue-600 hover:underline">Microsoft Certified: Azure Administrator Associate (AZ-104)</a></li>
+                <li><a href="https://learn.microsoft.com/api/credentials/share/en-us/MohamadIzzam-3174/ECAF0989FFA37C8E?sharingId=D882A1A827C20213" class="text-blue-600 hover:underline">Microsoft Certified: Azure Security Engineer Associate (AZ-500)</a></li>
+                <li><a href="https://learn.microsoft.com/api/credentials/share/en-us/MohamadIzzam-3174/8F5D16003AA9B34E?sharingId=D882A1A827C20213" class="text-blue-600 hover:underline">Microsoft Certified: Azure Solution Architect Expert (AZ-305)</a></li>
+                <li><a href="https://www.credly.com/badges/fa56b7f4-8919-48a9-9679-44eef0aad4ae/public_url" class="text-blue-600 hover:underline">AWS Certified: AWS Certified Cloud Practitioner (CLF-CO2)</a></li>
+                <li><a href="https://labex.io/certificates/S002500040055863" class="text-blue-600 hover:underline">Labex: Certificate of completion for completing the Skill Tree in Linux</a></li>
+            </ul>
+        </div>
+        
+        <div class="mt-6">
+            <h2 class="text-xl font-semibold">Education</h2>
+            <ul class="list-disc pl-5 mt-2">
+                <li><strong>AWS Re/Start program</strong> (MYKUA19) - World Education Placement Services (WEPS) <span class="text-sm text-gray-600 float-right">2024</span></li>
+                <li><strong>Microsoft Cloud Solution Expert program</strong> - PEOPLElogy Group (Yayasan Peneraju) <span class="text-sm text-gray-600 float-right">2024</span></li>
+                <li><strong>Bachelor of Science in Mechanical Engineering</strong> - Inha University (South Korea) <span class="text-sm text-gray-600 float-right">2017</span></li>
+                <li><strong>Diploma in Mechanical Engineering (Design)</strong> - Dongyang Mirae University (South Korea) <span class="text-sm text-gray-600 float-right">2015</span></li>
+                <li><strong>The Korean Language and Culture Program</strong> - Korean Language Education Center, Seoul National University <span class="text-sm text-gray-600 float-right">2012</span></li>
+            </ul>
+        </div>
+
+        <div class="mt-6">
+            <h2 class="text-xl font-semibold">Experience</h2>
+            <ul class="list-disc pl-5 mt-2">
+                <li class="mb-4"><strong>IT Service Desk Analyst (Korean Speaker)</strong> - Atos Service Malaysia (Cyberjaya) <span class="text-sm text-gray-600 float-right">2020 - Present</span>
+                    <ul class="list-[square] pl-5 mt-2">
+                        <li>Provide technical support to Korean-speaking users via phone, email, and chat.</li>
+                        <li>Perform first-level troubleshooting for Windows OS, software, network, and hardware issues.</li>
+                        <li>Manage incident logging, tracking, and resolution using ticketing system.</li>
+                        <li>Escalate complex issues to higher-level support when necessary to ensure timely resolution.</li>
+                    </ul>
+                </li>
+                <li class="mb-4"><strong>Li-ion Cell Production Engineer</strong> - Samsung SDI Energy Malaysia (Negeri Sembilan) <span class="text-sm text-gray-600 float-right">2017 - 2020</span>
+                    <ul class="list-[square] pl-5 mt-2">
+                        <li>Optimized cylindrical Li-ion cell assembly for efficiency and quality.</li>
+                        <li>Implemented 3R5S for a safe and organized work environment.</li>
+                        <li>Identified and resolved bottlenecks to meet production targets.</li>
+                        <li>Improved yield by analyzing and resolving defects.</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="mt-6">
+            <h2 class="text-xl font-semibold">Skills</h2>
+            <ul class="list-disc pl-5 mt-2">
+                <li><strong>Spoken Language:</strong> Malay (Native), English (Advanced), Korean (Advanced)</li>
+                <li><strong>Cloud Platforms:</strong> Azure Cloud (certified), AWS Cloud (certified), Alibaba Cloud (learning course)</li>
+                <li><strong> Cloud Services:</strong> Cloud Computing, Storage, Networking, Security, Identity & Compliance</li>
+                <li><strong>Programming & Scripting:</strong> Bash, Python, Java, C++,,, C, Golang</li>
+                <li><strong>DevOps & Automation:</strong> CI/CD, Terraform, Ansible</li>
+                <li><strong>Web Development:</strong> HTML, CSS, JavaScript, React</li>
+                <li><strong>Database Management:</strong> MySQL, MongoDB, RDS, Azure SQL Database</li>
+                <li><strong>Cybersecurity & System Administration:</strong> Security best practices, Linux, Windows Server, Git</li>
+                <li><strong>Networking & Infrastructure:</strong> Virtual Network, Security Group, Firewall, Load Balancing</li>
+                <li><strong>Data Science & Machine Learning:</strong> AWS SageMaker, Azure Machine Learning, Pandas, NumPy, Matplotlib</li>
+            </ul>
+        </div>
+
+    <script>
+        document.getElementById('downloadPdf').addEventListener('click', function () {
+            const {{ jsPDF }} = window.jspdf;
+            const doc = new jsPDF();
+            doc.text("Mohamad Izzam - Resume", 10, 10);
+            doc.text(document.getElementById("resumeContent").innerText, 10, 20);
+            doc.save("Mohamad_Izzam_Resume.pdf");
+        });
+    </script>
+</body>
+</html>
